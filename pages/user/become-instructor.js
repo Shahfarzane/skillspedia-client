@@ -11,7 +11,6 @@ import { toast } from "react-toastify";
 import UserRoute from "../../components/routes/UserRoute";
 
 const BecomeInstructor = () => {
-  // state
   const [loading, setLoading] = useState(false);
   const {
     state: { user },
